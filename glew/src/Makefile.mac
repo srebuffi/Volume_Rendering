@@ -1,0 +1,14 @@
+#Standard include and library path for GL/ and libGL, libGLU, libglut, update if needed 
+INCLUDEDIR = -I/usr/include/ -I/System/Library/Frameworks/GLEW.framework/Headers/ -I/System/Library/Frameworks/OpenGL.framework/Headers/ -I/System/Library/Frameworks/GLUT.framework/Headers/ -I/System/Library/Frameworks/GLEW.framework/Headers/ -Wno-deprecated-declarations
+LIBDIR =  -framework OpenGL -framework GLUT 
+LIBDIR =  -framework OpenGL -framework GLUT -framework GLEW
+
+glewinfo: glewinfo.o glew.o 
+	gcc $(LIBDIR) glewinfo.o glew.o -o glewinfo
+
+glewinfo.o: glewinfo.c
+	gcc -c $(INCLUDEDIR) glewinfo.c
+
+glew.o: glew.c
+	gcc -c $(INCLUDEDIR) -I ../include/ glew.c
+

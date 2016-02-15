@@ -1,0 +1,20 @@
+#version 330 core
+
+// Input vertex data, different for all executions of this shader.
+layout(location = 0) in vec2 vertexPosition;
+// Notice that the "1" here equals the "1" in glVertexAttribPointer
+layout(location = 1) in vec2 vertexUV;
+
+// Output data ; will be interpolated for each fragment.
+out vec2 fragmentUV;
+
+
+void main(){
+
+	// Output position of the vertex: same as input, no need for projection
+	gl_Position =  vec4(vertexPosition,1,1);
+
+	// The texture coordinate of each vertex will be interpolated to produce the coordinate of each fragment
+	fragmentUV = vertexUV;
+}
+

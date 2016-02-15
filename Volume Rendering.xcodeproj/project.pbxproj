@@ -1,0 +1,225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXFileReference section */
+		895EB9701C71D6B4007CBBA2 /* glew */ = {isa = PBXFileReference; lastKnownFileType = folder; path = glew; sourceTree = "<group>"; };
+		895EB9711C71D6B4007CBBA2 /* glsl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = glsl.cpp; sourceTree = "<group>"; };
+		895EB9721C71D6B4007CBBA2 /* glsl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glsl.h; sourceTree = "<group>"; };
+		895EB9731C71D6B4007CBBA2 /* glut32.dll */ = {isa = PBXFileReference; lastKnownFileType = file; path = glut32.dll; sourceTree = "<group>"; };
+		895EB9741C71D6B4007CBBA2 /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; path = images; sourceTree = "<group>"; };
+		895EB9751C71D6B4007CBBA2 /* lib */ = {isa = PBXFileReference; lastKnownFileType = folder; path = lib; sourceTree = "<group>"; };
+		895EB9761C71D6B4007CBBA2 /* Makefile.linux */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.linux; sourceTree = "<group>"; };
+		895EB9771C71D6B4007CBBA2 /* Makefile.mac */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Makefile.mac; sourceTree = "<group>"; };
+		895EB9781C71D6B4007CBBA2 /* Makefile.mac~ */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "Makefile.mac~"; sourceTree = "<group>"; };
+		895EB9791C71D6B4007CBBA2 /* SimpleFragmentShader.fp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleFragmentShader.fp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		895EB97A1C71D6B4007CBBA2 /* SimpleVertexShader.vp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = SimpleVertexShader.vp; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.c; };
+		895EB97B1C71D6B4007CBBA2 /* TextureLoader.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TextureLoader.cpp; sourceTree = "<group>"; };
+		895EB97C1C71D6B4007CBBA2 /* TextureLoader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextureLoader.h; sourceTree = "<group>"; };
+		895EB97D1C71D6B4007CBBA2 /* volume_render.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = volume_render.cpp; sourceTree = "<group>"; };
+		895EB97E1C71D6B4007CBBA2 /* volumetric_rendering.sln */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = volumetric_rendering.sln; sourceTree = "<group>"; };
+		895EB97F1C71D6B4007CBBA2 /* volumetric_rendering.suo */ = {isa = PBXFileReference; lastKnownFileType = file; path = volumetric_rendering.suo; sourceTree = "<group>"; };
+		895EB9801C71D6B4007CBBA2 /* volumetric_rendering.vcxproj */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = volumetric_rendering.vcxproj; sourceTree = "<group>"; };
+		895EB9811C71D6B4007CBBA2 /* volumetric_rendering.vcxproj.filters */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = volumetric_rendering.vcxproj.filters; sourceTree = "<group>"; };
+		895EB9821C71D6B4007CBBA2 /* volumetric_rendering.vcxproj.user */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = volumetric_rendering.vcxproj.user; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		895EB9651C71D68D007CBBA2 = {
+			isa = PBXGroup;
+			children = (
+				895EB9701C71D6B4007CBBA2 /* glew */,
+				895EB9711C71D6B4007CBBA2 /* glsl.cpp */,
+				895EB9721C71D6B4007CBBA2 /* glsl.h */,
+				895EB9731C71D6B4007CBBA2 /* glut32.dll */,
+				895EB9741C71D6B4007CBBA2 /* images */,
+				895EB9751C71D6B4007CBBA2 /* lib */,
+				895EB9761C71D6B4007CBBA2 /* Makefile.linux */,
+				895EB9771C71D6B4007CBBA2 /* Makefile.mac */,
+				895EB9781C71D6B4007CBBA2 /* Makefile.mac~ */,
+				895EB9791C71D6B4007CBBA2 /* SimpleFragmentShader.fp */,
+				895EB97A1C71D6B4007CBBA2 /* SimpleVertexShader.vp */,
+				895EB97B1C71D6B4007CBBA2 /* TextureLoader.cpp */,
+				895EB97C1C71D6B4007CBBA2 /* TextureLoader.h */,
+				895EB97D1C71D6B4007CBBA2 /* volume_render.cpp */,
+				895EB97E1C71D6B4007CBBA2 /* volumetric_rendering.sln */,
+				895EB97F1C71D6B4007CBBA2 /* volumetric_rendering.suo */,
+				895EB9801C71D6B4007CBBA2 /* volumetric_rendering.vcxproj */,
+				895EB9811C71D6B4007CBBA2 /* volumetric_rendering.vcxproj.filters */,
+				895EB9821C71D6B4007CBBA2 /* volumetric_rendering.vcxproj.user */,
+			);
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		895EB96A1C71D68D007CBBA2 /* Volume Rendering */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "-f Makefile.mac";
+			buildConfigurationList = 895EB96D1C71D68D007CBBA2 /* Build configuration list for PBXLegacyTarget "Volume Rendering" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/bin/make;
+			buildWorkingDirectory = "";
+			dependencies = (
+			);
+			name = "Volume Rendering";
+			passBuildSettingsInEnvironment = 1;
+			productName = "Volume Rendering";
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXProject section */
+		895EB9661C71D68D007CBBA2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Jamal Gourinda";
+				TargetAttributes = {
+					895EB96A1C71D68D007CBBA2 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 895EB9691C71D68D007CBBA2 /* Build configuration list for PBXProject "Volume Rendering" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 895EB9651C71D68D007CBBA2;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895EB96A1C71D68D007CBBA2 /* Volume Rendering */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin XCBuildConfiguration section */
+		895EB96B1C71D68D007CBBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		895EB96C1C71D68D007CBBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		895EB96E1C71D68D007CBBA2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUGGING_SYMBOLS = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		895EB96F1C71D68D007CBBA2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				OTHER_CFLAGS = "";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895EB9691C71D68D007CBBA2 /* Build configuration list for PBXProject "Volume Rendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895EB96B1C71D68D007CBBA2 /* Debug */,
+				895EB96C1C71D68D007CBBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895EB96D1C71D68D007CBBA2 /* Build configuration list for PBXLegacyTarget "Volume Rendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895EB96E1C71D68D007CBBA2 /* Debug */,
+				895EB96F1C71D68D007CBBA2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 895EB9661C71D68D007CBBA2 /* Project object */;
+}
