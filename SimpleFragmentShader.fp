@@ -74,7 +74,7 @@ void main()
     
 */
  
-/*
+
       //Accumulate all vertical slices 
     x = fragmentUV.x;
     z = fragmentUV.y;
@@ -84,8 +84,8 @@ void main()
         pixCoord = pixel_coordinate(x,y,z);
         color +=  texture(myTextureSamplerVolume, pixCoord).rgb/100.;
     }
-*/
 
+/*
       //Accumulate all vertical slices after rotation by rotationAngle around the z axis
     float rotationAngle = 0;
     float HypTot = 1.0/cos(rotationAngle);
@@ -104,7 +104,7 @@ void main()
         color +=  texture(myTextureSamplerVolume, pixCoord).rgb/100.;
     }
 
-
+*/
 
 /*
      //Ray marching until density above a threshold (i.e., extract an iso-surface)
